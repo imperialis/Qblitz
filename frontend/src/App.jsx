@@ -3,7 +3,8 @@ import axios from 'axios';
 import { LineChart, BarChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import { BookOpen, Award, Brain, BarChart2, Database, Cpu, RefreshCw } from 'lucide-react';
 //Add the base url for your backend here
-const API_BASE_URL = 'https://super-giggle-64j5px6p67wc5r5q-3000.app.github.dev';
+const API_BASE_URL = 'http://localhost:3000';
+
 
 function App() {
   const [view, setView] = useState('quiz');
